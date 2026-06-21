@@ -50,8 +50,10 @@ plt.show()
 print(df["is_top_100"].value_counts())
 print('Class Imbalance, is_top_100')
 print(df['is_top_100'].value_counts(normalize=True) * 100)
+
+genres = (df["genre"].str.split("|").explode())
 print('Class Imbalance, genre')
-print(df['genre'].value_counts())
+print(genres.value_counts())
 
 
 # Verteilung der IMDb-Bewertungen
@@ -109,7 +111,7 @@ plt.show()
 
 # Genre-Verteilung
 plt.figure(figsize=(12, 8))
-sns.countplot(y='genre', data=df, order=df['genre'].value_counts().index)  # sortiert nach Häufigkeit der Genres
+sns.countplot(y=genres, data=df, order=genres.value_counts().index)  # sortiert nach Häufigkeit der Genres
 plt.title('Verteilung der Genres')
 plt.xlabel('Anzahl Filme')
 plt.ylabel('Genre')
