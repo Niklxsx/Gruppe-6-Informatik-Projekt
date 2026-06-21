@@ -11,13 +11,37 @@ def load_and_prepare_datasets(basis_path, top_path, flop_path):
     df_top = pd.read_csv(top_path)
     df_flop = pd.read_csv(flop_path)
 
+# Hilfsfunktion, um das erste Genre zu extrahieren
+    def get_first_genre(genre):
+        if pd.isna(genre):
+            return np.nan
+
+        genre = str(genre).strip()
+
+        # Format: ['Action', 'Drama', 'Musical']
+        if genre.startswith("["):
+            genre = genre.strip("[]")
+            first = genre.split(",")[0]
+            return first.strip().strip("'\"")
+
+        # Format: Action|Comedy|Music
+        if "|" in genre:
+            return genre.split("|")[0].strip()
+
+        # Format: Animation, Drama, Fantasy
+        if "," in genre:
+            return genre.split(",")[0].strip()
+
+        # Format: Drama
+        return genre
+
     # Basis-Datensatz (movies.csv)
     df_basis_prep = pd.DataFrame()
     df_basis_prep["film_title"] = df_basis["title_x"]
     df_basis_prep["imdb_rating"] = df_basis["imdb_rating"]
     df_basis_prep["vote_count"] = df_basis["imdb_votes"]
     df_basis_prep["release_year"] = df_basis["year_of_release"]
-    df_basis_prep["genre"] = df_basis["genres"]
+    df_basis_prep["genre"] = df_basis["genres"].apply(get_first_genre)
     df_basis_prep["duration_min"] = df_basis["runtime"]
     df_basis_prep["is_top_100"] = 0 # Standard-Label für die Klassifikation
 
@@ -27,7 +51,7 @@ def load_and_prepare_datasets(basis_path, top_path, flop_path):
     df_top_prep["imdb_rating"] = df_top["Rating"]
     df_top_prep["vote_count"] = np.nan
     df_top_prep["release_year"] = df_top["Year"]
-    df_top_prep["genre"] = df_top["Genre"]
+    df_top_prep["genre"] = df_top["Genre"].apply(get_first_genre)
     df_top_prep["duration_min"] = np.nan
     df_top_prep["is_top_100"] = 1 # Wichtiges Ziel-Label für Klassifikation
 
@@ -46,7 +70,7 @@ def load_and_prepare_datasets(basis_path, top_path, flop_path):
 
     df_flop_prep["vote_count"] = df_flop["review_count"].apply(clean_review_count)
     df_flop_prep["release_year"] = df_flop["year"]
-    df_flop_prep["genre"] = df_flop["genre"]
+    df_flop_prep["genre"] = df_flop["genre"].apply(get_first_genre)
 
     def convert_duration_to_minutes(duration_str):
         if pd.isna(duration_str):

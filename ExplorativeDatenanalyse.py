@@ -2,55 +2,87 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
 
 # Laden der bereinigten csv Datei in ein DataFrame
-df = pd.read_csv('filme.csv')    # Dateiname anpassen, falls nötig
+df = pd.read_csv('movies_merged.csv')  
 
 # Überblick über die Daten
 print('Erste 5 Zeilen: ', df.head())
 print('Dateninformationen: ', df.info())
+print('Statistische Zusammenfassung: ', df.describe())
+
+# Fehlende Werte prüfen
+print("Fehlende Werte:", df.isnull().sum())
+
+
+
+#Trainings und Testdaten aufteilen, Zielvariable ist "is_top_100"
+X = df[["release_year", "vote_count", "duration_min"]]
+y = df["is_top_100"]
+
+# Zielvariable is IMDb-Bewertung
+# y_rating = df["imdb_rating"]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+# X_train_rating, X_test_rating, y_train_rating, y_test_rating = train_test_split(X, y_rating, test_size=0.2, random_state=42)
+# kein stratify, da das Rating kontinuierlich
+
+# Trainingsdaten normalisieren
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+
 
 # Verteilung der Zielvariablen
 plt.figure(figsize=(8, 6))
-sns.countplot(x='is_top_100', data=df)
+sns.countplot(x='is_top_100', data=df)        # untersucht Class Imbalance (binäre Variable)
 plt.title('Verteilung der Zielvariablen')
 plt.xlabel('Ist in Top 100')
 plt.ylabel('Anzahl')
 plt.show()
 
+
+# Class Imbalance
+print(df["is_top_100"].value_counts())
+print('Class Imbalance, is_top_100')
+print(df['is_top_100'].value_counts(normalize=True) * 100)
+print('Class Imbalance, genre')
+print(df['genre'].value_counts())
+
+
+# Verteilung der IMDb-Bewertungen
 plt.figure(figsize=(8, 6))
 sns.histplot(df['imdb_rating'], bins=20, kde=True)
 plt.title('Verteilung der IMDb-Bewertungen')
 plt.xlabel('IMDb-Bewertung')
 plt.ylabel('Anzahl Filme')
+plt.show()
+
+# Verteilung der Filmdauer
+plt.figure(figsize=(8,5))
+sns.histplot(df["duration_min"], bins=30)
+plt.title("Verteilung der Filmdauer")
+plt.xlabel("Dauer in Minuten")
+plt.ylabel("Anzahl Filme")
 plt.show()
 
 
 # Korrelation zwischen Attributen
-numeric_df = df.select_dtypes(include=[np.number])
-corr = numeric_df.corr()
+corr = df[["imdb_rating", "vote_count", "release_year", "duration_min", "is_top_100"]].corr()    # bestimmte Attribute gewählt
 print('Korrelation: ', corr)
 
 plt.figure(figsize=(8, 6))
-sns.heatmap(corr, annot=True, cmap='coolwarm', fmt='.2f')
+sns.heatmap(corr, annot=True, cmap='coolwarm', vmin=-1, vmax=1)
 plt.title('Korrelationsmatrix')
 plt.show()
 
 
-# Class Imbalance?
 
-class_counts = df['is_top_100'].value_counts()
-
-
-
-# Plots
-# IMDb-Bewertungen
-plt.figure(figsize=(8, 6))
-sns.histplot(df['imdb_rating'], bins=20, kde=True)
-plt.title('Verteilung der IMDb-Bewertungen')
-plt.xlabel('IMDb-Bewertung')
-plt.ylabel('Anzahl Filme')
-plt.show()
+# weitere Plots
 
 # Erscheinungsjahre
 plt.figure(figsize=(8, 6))
@@ -77,5 +109,8 @@ plt.show()
 
 # Genre-Verteilung
 plt.figure(figsize=(12, 8))
-sns.countplot(y='genre', data=df, order=df['genre'].value_counts().index)  # ???
+sns.countplot(y='genre', data=df, order=df['genre'].value_counts().index)  # sortiert nach Häufigkeit der Genres
 plt.title('Verteilung der Genres')
+plt.xlabel('Anzahl Filme')
+plt.ylabel('Genre')
+plt.show()
