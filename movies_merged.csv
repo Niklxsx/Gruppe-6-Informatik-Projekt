@@ -1,12 +1,12 @@
 film_title,release_year,imdb_rating,vote_count,duration_min,genre,is_top_100
-12 Angry Men,1957,9.0,,130.0,Crime|Drama,1
+12 Angry Men,1957,9.0,1213.5,130.0,Crime|Drama,1
 16 December (film),2002,6.9,1091.0,158.0,Action|Thriller,0
 1920 (film),2008,6.4,2588.0,138.0,Horror|Mystery|Romance,0
 1920: London,2016,4.1,1373.0,120.0,Horror|Mystery,0
 1920: The Evil Returns,2012,4.8,1587.0,124.0,Drama|Horror|Romance,0
 1971 (2007 film),2007,7.9,1121.0,160.0,Action|Drama|War,0
 2 States (2014 film),2014,6.9,22060.0,149.0,Comedy|Drama|Romance,0
-2001: A Space Odyssey,1968,8.3,,130.0,Adventure|Sci-Fi,1
+2001: A Space Odyssey,1968,8.3,1213.5,130.0,Adventure|Sci-Fi,1
 22 Yards,2019,5.3,124.0,126.0,Sport,0
 23rd March 1931: Shaheed,2002,5.0,570.0,188.0,Biography|Drama|History,0
 3 A.M. (2014 film),2014,5.4,488.0,103.0,Horror|Romance,0
@@ -97,8 +97,8 @@ Aladin (film),2009,4.6,2540.0,132.0,Action|Adventure|Fantasy,0
 Alag,2006,3.8,1076.0,123.0,Action|Drama|Fantasy,0
 Albela (2001 film),2001,3.7,655.0,145.0,Drama|Romance,0
 Albert Pinto Ko Gussa Kyun Aata Hai?,2019,4.8,56.0,100.0,Drama,0
-Alien,1979,8.5,,130.0,Horror|Sci-Fi,1
-Aliens,1986,8.4,,130.0,Action|Adventure|Sci-Fi,1
+Alien,1979,8.5,1213.5,130.0,Horror|Sci-Fi,1
+Aliens,1986,8.4,1213.5,130.0,Action|Adventure|Sci-Fi,1
 Aligarh (film),2015,7.8,4873.0,114.0,Biography|Drama,0
 All Is Well (2015 film),2015,3.8,1399.0,126.0,Adventure|Comedy|Drama,0
 All the Best: Fun Begins,2009,6.1,5100.0,144.0,Action|Comedy|Drama,0
@@ -107,10 +107,10 @@ Alone (2015 Hindi film),2015,3.7,1465.0,133.0,Horror,0
 Alone in the Dark,2005,2.4,47000.0,96.0,Action|Horror|Sci-Fi,0
 Aloo Chaat (film),2009,5.8,860.0,130.0,Comedy|Drama|Romance,0
 Always Kabhi Kabhi,2011,4.0,1230.0,126.0,Comedy|Crime|Drama,0
-Amadeus,1984,8.4,,130.0,Biography|Drama|Music,1
+Amadeus,1984,8.4,1213.5,130.0,Biography|Drama|Music,1
 Amavas,2019,2.8,235.0,134.0,Horror|Thriller,0
-American Beauty,1999,8.3,,130.0,Drama,1
-American History X,2000,8.5,,130.0,Crime|Drama,1
+American Beauty,1999,8.3,1213.5,130.0,Drama,1
+American History X,2000,8.5,1213.5,130.0,Crime|Drama,1
 Amit Sahni Ki List,2014,5.5,329.0,110.0,Comedy|Romance,0
 Anaarkali of Aarah,2017,6.5,1132.0,113.0,Drama,0
 Anamika (2008 film),2008,3.3,238.0,130.0,Drama|Romance|Thriller,0
@@ -134,7 +134,7 @@ Apartment (film),2010,3.4,206.0,97.0,Drama|Mystery|Thriller,0
 Apna Asmaan,2007,6.2,144.0,110.0,Drama|Sci-Fi,0
 Apna Sapna Money Money,2006,5.2,1697.0,134.0,Comedy|Musical|Romance,0
 Apne,2007,6.0,2514.0,173.0,Drama|Sport,0
-Apocalypse Now,1979,8.4,,130.0,Drama|Mystery|War,1
+Apocalypse Now,1979,8.4,1213.5,130.0,Drama|Mystery|War,1
 Arjun Patiala,2019,4.1,676.0,107.0,Action|Comedy,0
 Arjun: The Warrior Prince,2012,6.8,1286.0,96.0,Action|Adventure|Animation,0
 Armaan (2003 film),2003,5.2,1025.0,158.0,Drama|Family|Romance,0
@@ -145,8 +145,8 @@ Ata Pata Laapata,2012,5.6,78.0,120.0,Comedy|Musical,0
 Aur Pappu Paas Ho Gaya,2007,3.2,24.0,142.0,Comedy,0
 Aurangzeb (film),2013,6.5,3674.0,137.0,Action|Drama|Thriller,0
 Aval (2017 film),2017,6.8,1655.0,137.0,Horror,0
-Avengers: Endgame,2019,8.4,,130.0,Action|Adventure|Drama,1
-Avengers: Infinity War,2018,8.4,,130.0,Action|Adventure|Sci-Fi,1
+Avengers: Endgame,2019,8.4,1213.5,130.0,Action|Adventure|Drama,1
+Avengers: Infinity War,2018,8.4,1213.5,130.0,Action|Adventure|Sci-Fi,1
 Awara Paagal Deewana,2002,6.2,7059.0,158.0,Action|Comedy|Crime,0
 Awarapan,2007,7.2,5862.0,126.0,Action|Drama|Romance,0
 Azhar (film),2016,5.8,4887.0,130.0,Biography|Drama|Sport,0
@@ -170,7 +170,7 @@ Baby Geniuses,1999,2.6,27000.0,97.0,Comedy|Crime|Family,0
 Bachche Kachche Sachche,2017,0.0,0.0,130.0,Drama|Short,0
 Bachke Rehna Re Baba,2005,2.7,194.0,130.0,Comedy,0
 Bachna Ae Haseeno,2008,6.2,9439.0,152.0,Comedy|Drama|Romance,0
-Back to the Future,1985,8.5,,130.0,Adventure|Comedy|Sci-Fi,1
+Back to the Future,1985,8.5,1213.5,130.0,Adventure|Comedy|Sci-Fi,1
 Badhaai Ho,2018,8.0,21851.0,124.0,Comedy|Drama,0
 Badhaai Ho Badhaai,2002,4.4,585.0,155.0,Comedy|Drama|Musical,0
 Badla (2019 film),2019,7.9,15499.0,118.0,Crime|Drama|Mystery,0
@@ -272,7 +272,7 @@ Border (1997 film),2003,5.1,2284.0,255.0,Drama|History|War,0
 Boss (2013 Hindi film),2013,5.1,9674.0,143.0,Action,0
 Brahman Naman,2016,5.6,1575.0,95.0,Comedy,0
 Bratz,2007,3.1,25000.0,110.0,Comedy|Family|Music,0
-Braveheart,1995,8.3,,130.0,Biography|Drama|History,1
+Braveheart,1995,8.3,1213.5,130.0,Biography|Drama|History,1
 Breach,2020,2.9,19000.0,92.0,Action|Horror|Sci-Fi,0
 Break Ke Baad,2010,5.2,3714.0,118.0,Comedy|Drama|Romance,0
 Breakaway (2011 film),2011,5.7,2123.0,101.0,Comedy|Drama|Sport,0
@@ -293,9 +293,9 @@ C Kkompany,2008,5.4,894.0,127.0,Comedy|Drama|Thriller,0
 Calapor (film),2013,5.2,5.0,120.0,Drama,0
 Calcutta Mail,2003,5.7,446.0,128.0,Drama|Mystery|Thriller,0
 Calendar Girls (2015 film),2015,4.2,766.0,131.0,Drama,0
-Capernaum,2018,8.4,,130.0,Drama,1
+Capernaum,2018,8.4,1213.5,130.0,Drama,1
 Captain America,1990,3.2,15000.0,97.0,Action|Adventure|Sci-Fi,0
-Casablanca,1942,8.5,,130.0,Drama|Romance|War,1
+Casablanca,1942,8.5,1213.5,130.0,Drama|Romance|War,1
 Cash (2007 film),2007,3.4,1698.0,137.0,Action|Crime|Thriller,0
 Cats,2019,2.8,55000.0,110.0,Comedy|Drama|Family,0
 Catwoman,2004,3.4,124000.0,104.0,Action|Crime|Fantasy,0
@@ -348,19 +348,19 @@ Chori Chori Chupke Chupke,2001,5.4,3907.0,160.0,Drama|Musical|Romance,0
 Chup Chup Ke,2006,6.7,7045.0,164.0,Comedy|Drama|Romance,0
 Chura Liyaa Hai Tumne,2003,3.7,443.0,143.0,Action|Drama|Mystery,0
 Cigarette Ki Tarah,2012,4.5,21.0,107.0,Romance|Thriller,0
-Cinema Paradiso,1988,8.5,,130.0,Drama|Romance,1
-Citizen Kane,1941,8.3,,130.0,Drama|Mystery,1
-City Lights,1931,8.5,,130.0,Comedy|Drama|Romance,1
-City of God,2002,8.6,,130.0,Crime|Drama,1
+Cinema Paradiso,1988,8.5,1213.5,130.0,Drama|Romance,1
+Citizen Kane,1941,8.3,1213.5,130.0,Drama|Mystery,1
+City Lights,1931,8.5,1213.5,130.0,Comedy|Drama|Romance,1
+City of God,2002,8.6,1213.5,130.0,Crime|Drama,1
 City of Gold (2010 film),2010,6.8,342.0,145.0,Crime|Drama,0
 CityLights (2014 film),2014,7.3,4141.0,126.0,Drama|Thriller,0
 Classic – Dance of Love,2005,4.9,47.0,130.0,Drama,0
 Click (2010 film),2010,3.5,293.0,127.0,Drama|Horror|Mystery,0
 Cocktail (2012 film),2012,6.3,12514.0,146.0,Comedy|Drama|Romance,0
-Coco,2017,8.4,,130.0,Animation|Adventure|Comedy,1
+Coco,2017,8.4,1213.5,130.0,Animation|Adventure|Comedy,1
 Coffee Bloom,2015,6.5,98.0,90.0,Drama,0
 Coffee with D,2017,4.5,563.0,123.0,Comedy,0
-Come and See,1985,8.4,,130.0,Drama|Thriller|War,1
+Come and See,1985,8.4,1213.5,130.0,Drama|Thriller|War,1
 Commando 3 (film),2019,5.7,2400.0,133.0,Action|Thriller,0
 Commando: A One Man Army,2013,6.1,3935.0,124.0,Action|Thriller,0
 Company (film),2002,8.0,13474.0,155.0,Action|Crime|Drama,0
@@ -468,7 +468,7 @@ Dirty Politics (film),2015,2.6,534.0,130.0,Drama,0
 Disaster Movie,2008,1.9,94000.0,87.0,Comedy|Sci-Fi,0
 Dishkiyaoon,2014,5.2,918.0,119.0,Action|Thriller,0
 Dishoom,2016,5.1,5976.0,124.0,Action|Adventure|Comedy,0
-Django Unchained,2012,8.5,,130.0,Drama|Western,1
+Django Unchained,2012,8.5,1213.5,130.0,Drama|Western,1
 Do Dooni Chaar,2010,7.6,4556.0,112.0,Comedy|Drama,0
 Do Lafzon Ki Kahani (film),2016,6.4,1201.0,128.0,Action|Drama|Romance,0
 Dobaara: See Your Evil,2017,3.9,291.0,106.0,Horror|Mystery,0
@@ -484,7 +484,7 @@ Dostana (2008 film),2008,6.5,12910.0,145.0,Comedy|Drama|Romance,0
 Dosti: Friends Forever,2005,5.5,2286.0,136.0,Drama|Romance,0
 Double Cross (2005 film),2005,4.1,41.0,104.0,Comedy,0
 Double Dhamaal,2011,3.8,3105.0,138.0,Comedy|Crime|Drama,0
-Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,8.4,,130.0,Comedy|War,1
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,8.4,1213.5,130.0,Comedy|War,1
 Dragon Wars: D-War,2007,3.5,25000.0,107.0,Action|Drama|Fantasy,0
 Dragonball Evolution,2009,2.5,78000.0,85.0,Action|Adventure|Fantasy,0
 Dream Girl (2019 film),2019,7.5,4077.0,132.0,Comedy|Romance,0
@@ -536,7 +536,7 @@ English Vinglish,2012,7.8,31107.0,134.0,Comedy|Drama|Family,0
 Entertainment (2014 film),2014,4.5,6885.0,140.0,Action|Comedy,0
 Epic Movie,2007,2.4,109000.0,86.0,Adventure|Comedy|Fantasy,0
 Escape from Taliban,2003,4.5,155.0,166.0,Adventure|Drama|Thriller,0
-Eternal Sunshine of the Spotless Mind,2004,8.3,,130.0,Drama|Romance|Sci-Fi,1
+Eternal Sunshine of the Spotless Mind,2004,8.3,1213.5,130.0,Drama|Romance|Sci-Fi,1
 Evening Shadows,2018,7.3,280.0,102.0,Drama,0
 F.A.L.T.U,2011,4.6,2758.0,120.0,Comedy|Drama,0
 Family (2006 film),2006,5.6,1740.0,150.0,Action|Crime|Drama,0
@@ -554,7 +554,7 @@ Ferrari Ki Sawaari,2012,6.4,4693.0,140.0,Comedy|Drama|Family,0
 Fever (2016 film),2016,4.7,572.0,123.0,Crime|Mystery,0
 Fida,2004,5.5,2224.0,122.0,Action|Crime|Drama,0
 Fifty Shades of Black,2016,3.5,23000.0,92.0,Comedy,0
-Fight Club,1999,8.8,,130.0,Drama,1
+Fight Club,1999,8.8,1213.5,130.0,Drama,1
 Fight Club – Members Only,2006,3.2,1260.0,140.0,Action|Crime,0
 Filhaal...,2002,5.5,221.0,151.0,Drama|Romance,0
 Filmistaan,2012,7.3,3162.0,117.0,Comedy,0
@@ -570,7 +570,7 @@ Fool & Final,2007,3.3,1713.0,144.0,Action|Comedy|Crime,0
 Footpath (2003 film),2003,5.3,712.0,164.0,Action|Crime|Drama,0
 Force (2011 film),2011,6.4,6497.0,137.0,Action|Thriller,0
 Force 2,2016,6.2,4340.0,127.0,Action|Thriller,0
-Forrest Gump,1994,8.8,,130.0,Drama|Romance,1
+Forrest Gump,1994,8.8,1213.5,130.0,Drama|Romance,1
 Fox (film),2009,5.2,512.0,145.0,Crime|Drama|Mystery,0
 Fraud Saiyaan,2019,4.2,504.0,109.0,Comedy|Drama,0
 Freaky Ali,2016,4.9,2373.0,120.0,Comedy|Sport,0
@@ -613,7 +613,7 @@ Ghost (2019 film),2019,8.7,1379.0,130.0,Horror|Thriller,0
 Gigli,2003,2.6,50000.0,121.0,Comedy|Crime|Romance,0
 Gippi,2013,5.6,734.0,95.0,Comedy|Drama,0
 Girlfriend (2004 film),2004,3.2,321.0,126.0,Drama,0
-Gladiator,1994,8.5,,130.0,Action|Adventure|Drama,1
+Gladiator,1994,8.5,1213.5,130.0,Action|Adventure|Drama,1
 Glitter,2001,2.4,24000.0,104.0,Drama|Music|Romance,0
 Global Baba,2016,5.6,163.0,120.0,Thriller,0
 Go (2007 film),2007,2.8,133.0,110.0,Crime|Drama|Romance,0
@@ -631,13 +631,13 @@ Golmaal: Fun Unlimited,2006,7.4,13600.0,150.0,Action|Comedy|Drama,0
 Gone Kesh,2019,7.1,178.0,110.0,Drama,0
 Good Boy Bad Boy,2007,3.7,1541.0,115.0,Comedy|Musical|Romance,0
 Good Newwz,2019,6.9,16000.0,134.0,Comedy|Drama|Romance,0
-Good Will Hunting,1997,8.3,,130.0,Drama|Romance,1
-Goodfellas,1990,8.7,,130.0,Biography|Crime|Drama,1
+Good Will Hunting,1997,8.3,1213.5,130.0,Drama|Romance,1
+Goodfellas,1990,8.7,1213.5,130.0,Biography|Crime|Drama,1
 Gori Tere Pyaar Mein,2013,5.0,3250.0,150.0,Comedy|Drama|Romance,0
 Gour Hari Dastaan,2015,7.5,435.0,114.0,Biography|Drama,0
 Grahan,2001,5.1,73.0,110.0,Crime|Drama,0
 Grand Masti,2013,4.3,5423.0,137.0,Comedy|Drama|Romance,0
-Grave of the Fireflies,1988,8.5,,130.0,Animation,1
+Grave of the Fireflies,1988,8.5,1213.5,130.0,Animation,1
 Great Grand Masti,2016,3.7,2020.0,134.0,Comedy|Drama|Fantasy,0
 Green Card Fever,2003,5.9,179.0,100.0,Comedy|Drama|Romance,0
 Guddu Ki Gun,2015,4.7,541.0,130.0,Comedy,0
@@ -670,7 +670,7 @@ Happy Husbands (2011 film),2011,3.6,18.0,134.0,Comedy|Drama,0
 Happy New Year (2014 film),2014,5.1,32113.0,180.0,Action|Comedy|Music,0
 Happy Phirr Bhag Jayegi,2018,4.5,974.0,136.0,Comedy,0
 Haraamkhor,2015,6.4,3144.0,90.0,Drama|Romance,0
-Harakiri,1962,8.6,,130.0,Action|Drama|Mystery,1
+Harakiri,1962,8.6,1213.5,130.0,Action|Drama|Mystery,1
 Hari Puttar: A Comedy of Terrors,2008,1.9,260.0,90.0,Comedy|Drama|Family,0
 Hasee Toh Phasee,2014,6.8,12622.0,141.0,Comedy|Romance,0
 Haseena Parkar,2017,4.2,976.0,135.0,Biography|Crime|Thriller,0
@@ -703,7 +703,7 @@ Hey Bro,2015,3.3,119.0,113.0,Action|Comedy|Drama,0
 Heyy Babyy,2007,6.0,12013.0,144.0,Comedy|Drama,0
 Hichki,2018,7.5,8129.0,116.0,Comedy|Drama,0
 High Jack (film),2018,5.2,252.0,102.0,Comedy,0
-High and Low,1963,8.4,,130.0,Crime|Drama|Mystery,1
+High and Low,1963,8.4,1213.5,130.0,Crime|Drama|Mystery,1
 Highway (2014 Hindi film),2014,7.6,24037.0,133.0,Crime|Drama|Romance,0
 Himmatwala (2013 film),2013,1.7,7470.0,150.0,Action|Comedy,0
 Hind Ka Napak Ko Jawab: MSG Lion Heart 2,2017,6.8,3960.0,130.0,Action|Comedy,0
@@ -753,22 +753,22 @@ I Love NY (2015 film),2015,3.6,499.0,127.0,Comedy|Romance,0
 I Proud to Be an Indian,2004,6.1,483.0,129.0,Action|Crime|Drama,0
 I See You (2006 film),2006,4.1,1060.0,122.0,Comedy|Drama|Fantasy,0
 I'll Always Know What You Did Last Summer,2006,3.4,13000.0,92.0,Horror|Mystery|Thriller,0
-Ikiru,1952,8.3,,130.0,Drama,1
+Ikiru,1952,8.3,1213.5,130.0,Drama,1
 Impatient Vivek,2011,2.3,56.0,130.0,Comedy|Drama|Romance,0
 In the Name of the King: A Dungeon Siege Tale,2007,3.8,51000.0,127.0,Action|Adventure|Fantasy,0
-Inception,2010,8.7,,130.0,Action|Adventure|Sci-Fi,1
+Inception,2010,8.7,1213.5,130.0,Action|Adventure|Sci-Fi,1
 India's Most Wanted (film),2019,4.4,1449.0,123.0,Action|Thriller,0
 Indian (2001 film),2001,5.3,1991.0,178.0,Action|Crime|Drama,0
 Indian Babu,2003,4.7,47.0,130.0,Drama|Romance,0
-Indiana Jones and the Raiders of the Lost Ark,1981,8.4,,130.0,Action|Adventure,1
+Indiana Jones and the Raiders of the Lost Ark,1981,8.4,1213.5,130.0,Action|Adventure,1
 Indu Sarkar,2017,6.0,1287.0,139.0,Drama|History|Thriller,0
-Inglourious Basterds,2009,8.4,,130.0,Adventure|Drama|War,1
+Inglourious Basterds,2009,8.4,1213.5,130.0,Adventure|Drama|War,1
 Inkaar (2013 film),2013,6.1,2352.0,125.0,Drama|Romance|Thriller,0
 Insaaf: The Justice,2004,4.0,81.0,130.0,Drama,0
 Insan,2005,4.6,1174.0,141.0,Action|Crime|Drama,0
 Inteha (2003 film),2003,5.3,131.0,155.0,Drama|Thriller,0
 Inteqam: The Perfect Game,2004,5.3,78.0,127.0,Action|Thriller,0
-Interstellar,2014,8.7,,130.0,Adventure|Drama|Sci-Fi,1
+Interstellar,2014,8.7,1213.5,130.0,Adventure|Drama|Sci-Fi,1
 Iqbal (film),2005,8.1,14864.0,132.0,Drama|Sport,0
 Iqraar by Chance,2006,4.7,39.0,130.0,Comedy|Romance,0
 Irada (2017 film),2017,6.2,1024.0,109.0,Drama|Mystery|Thriller,0
@@ -787,7 +787,7 @@ Isi Life Mein,2010,5.7,344.0,139.0,Comedy|Drama|Romance,0
 Island City (2015 film),2015,6.8,291.0,108.0,Drama,0
 Issaq,2013,4.4,415.0,148.0,Drama|Romance,0
 It's a Wonderful Afterlife,2010,5.3,1385.0,100.0,Comedy|Drama|Fantasy,0
-It's a Wonderful Life,1946,8.6,,130.0,Drama|Family|Fantasy,1
+It's a Wonderful Life,1946,8.6,1213.5,130.0,Drama|Family|Fantasy,1
 Ittefaq (2001 film),2001,4.6,67.0,138.0,Action|Comedy|Drama,0
 JD (film),2017,6.5,13.0,127.0,Drama,0
 Jaal: The Trap,2003,4.1,402.0,142.0,Action|Drama|Romance,0
@@ -846,7 +846,7 @@ Jodi No.1,2001,5.8,1988.0,140.0,Comedy|Romance,0
 Joggers' Park (film),2003,6.2,335.0,133.0,Comedy|Romance,0
 John Day (film),2013,5.7,735.0,138.0,Drama,0
 Johnny Gaddaar,2007,7.8,10612.0,135.0,Crime|Drama|Mystery,0
-Joker,2019,8.4,,130.0,Crime|Drama|Thriller,1
+Joker,2019,8.4,1213.5,130.0,Crime|Drama|Thriller,1
 Joker (2012 film),2012,2.4,4716.0,104.0,Comedy|Family|Sci-Fi,0
 Jolly LLB,2013,7.5,15157.0,135.0,Comedy|Drama,0
 Judgementall Hai Kya,2019,6.0,3269.0,121.0,Comedy|Drama|Thriller,0
@@ -980,12 +980,12 @@ Lakeer – Forbidden Lines,2004,4.4,819.0,170.0,Action|Drama|Romance,0
 Lakshmi (2014 film),2014,8.0,1240.0,115.0,Drama,0
 Lakshya (film),2004,7.9,18777.0,186.0,Action|Drama|Romance,0
 Lamhaa,2010,5.0,594.0,152.0,Action|Drama|Thriller,0
-Lawrence of Arabia,1962,8.3,,130.0,Adventure|Biography|Drama,1
+Lawrence of Arabia,1962,8.3,1213.5,130.0,Adventure|Biography|Drama,1
 Laxmii,2020,2.5,58000.0,141.0,Action|Comedy|Horror,0
 Left Behind,2014,3.1,42000.0,110.0,Action|Fantasy|Sci-Fi,0
 Lekar Hum Deewana Dil,2014,4.9,653.0,140.0,Comedy|Romance,0
 Life Express (2010 film),2010,4.8,40.0,125.0,Drama,0
-Life Is Beautiful,1997,8.6,,130.0,Comedy|Drama|Romance,1
+Life Is Beautiful,1997,8.6,1213.5,130.0,Comedy|Drama|Romance,1
 Life Is Beautiful (2014 film),2014,5.3,43.0,116.0,Comedy|Romance,0
 Life Ki Toh Lag Gayi,2012,5.5,233.0,155.0,Comedy,0
 Life Mein Kabhie Kabhiee,2007,5.9,245.0,145.0,Drama|Thriller,0
@@ -1018,8 +1018,8 @@ Lucky Kabootar,2014,5.3,66.0,117.0,Comedy,0
 Lucky: No Time for Love,2005,4.7,3010.0,180.0,Drama|Musical|Romance,0
 Luv U Alia,2015,5.3,77.0,130.0,Family|Romance,0
 Luv U Soniyo,2012,5.5,63.0,144.0,Comedy|Romance,0
-Léon: The Professional,1994,8.5,,130.0,Action|Crime|Drama,1
-M,1931,8.3,,130.0,Crime|Mystery|Thriller,1
+Léon: The Professional,1994,8.5,1213.5,130.0,Action|Crime|Drama,1
+M,1931,8.3,1213.5,130.0,Crime|Mystery|Thriller,1
 M Cream,2014,5.7,590.0,112.0,Adventure|Comedy|Drama,0
 M.S. Dhoni: The Untold Story,2016,7.7,29352.0,184.0,Biography|Drama|Sport,0
 MP3: Mera Pehla Pehla Pyaar,2007,7.1,2028.0,118.0,Comedy|Drama|Musical,0
@@ -1091,7 +1091,7 @@ Meeruthiya Gangsters,2015,7.2,527.0,129.0,Comedy|Crime,0
 Meet the Spartans,2008,2.8,111000.0,87.0,Comedy|Fantasy,0
 Mega Shark vs. Giant Octopus,2009,2.5,11000.0,88.0,Action|Adventure|Comedy,0
 Meinu Ek Ladki Chaahiye,2014,3.5,8.0,130.0,Comedy|Crime|Drama,0
-Memento,2000,8.4,,130.0,Mystery|Thriller,1
+Memento,2000,8.4,1213.5,130.0,Mystery|Thriller,1
 Memories in March,2010,7.1,357.0,104.0,Drama,0
 Mercury (film),2018,6.2,774.0,106.0,Horror|Thriller,0
 Mere Baap Pehle Aap,2008,5.3,1716.0,163.0,Comedy|Drama|Romance,0
@@ -1117,7 +1117,7 @@ Mitr My Friend,2002,6.8,240.0,104.0,Drama,0
 Mitron,2018,6.9,1820.0,119.0,Comedy,0
 Mittal v/s Mittal,2010,4.8,9.0,130.0,Drama,0
 Mitti (2001 film),2001,6.0,20.0,155.0,Action|Crime|Thriller,0
-Modern Times,1936,8.5,,130.0,Comedy|Drama|Romance,1
+Modern Times,1936,8.5,1213.5,130.0,Comedy|Drama|Romance,1
 Moh Maya Money,2016,5.7,344.0,108.0,Crime|Drama|Thriller,0
 Mohalla Assi,2015,6.9,1369.0,150.0,Comedy|Drama,0
 Mohenjo Daro (film),2016,5.7,9764.0,155.0,Action|Adventure|Drama,0
@@ -1210,22 +1210,22 @@ October (2018 film),2018,7.5,11125.0,115.0,Drama|Romance,0
 Officer (2001 film),2001,5.3,97.0,130.0,Action|Crime|Drama,0
 Oh My God (2008 film),2008,5.4,250.0,105.0,Comedy|Drama,0
 Ok Jaanu,2017,5.1,3350.0,135.0,Drama|Romance,0
-Oldboy,2003,8.4,,130.0,Action|Drama|Mystery,1
+Oldboy,2003,8.4,1213.5,130.0,Action|Drama|Mystery,1
 Om (2003 film),2003,4.0,29.0,130.0,Action|Romance,0
 Om Jai Jagadish,2002,5.5,1713.0,172.0,Drama|Musical,0
 Om Shanti Om,2007,6.7,35974.0,162.0,Action|Comedy|Drama,0
 Omerta (film),2017,7.0,660.0,98.0,Action|Biography|Crime,0
 Omkara (2006 film),2006,8.1,17594.0,155.0,Action|Crime|Drama,0
-Once Upon a Time in America,1984,8.3,,130.0,Crime|Drama,1
+Once Upon a Time in America,1984,8.3,1213.5,130.0,Crime|Drama,1
 Once Upon a Time in Mumbaai,2010,7.4,15169.0,134.0,Action|Crime|Drama,0
-Once Upon a Time in the West,1968,8.5,,130.0,Western,1
+Once Upon a Time in the West,1968,8.5,1213.5,130.0,Western,1
 Once Upon ay Time in Mumbai Dobaara!,2013,4.6,6211.0,160.0,Action|Crime|Drama,0
 One 2 Ka 4,2001,5.4,4484.0,169.0,Action|Comedy|Crime,0
 One Day: Justice Delivered,2019,6.8,590.0,124.0,Action|Crime|Thriller,0
-One Flew Over the Cuckoo's Nest,1975,8.6,,130.0,Drama,1
+One Flew Over the Cuckoo's Nest,1975,8.6,1213.5,130.0,Drama,1
 One Two Three,2008,5.2,2226.0,135.0,Comedy|Crime,0
 One by Two (2014 film),2014,4.1,688.0,139.0,Comedy|Drama|Romance,0
-Oppenheimer,2023,8.6,,130.0,Biography|Drama|History,1
+Oppenheimer,2023,8.6,1213.5,130.0,Biography|Drama|History,1
 Out of Control (2003 film),2003,3.3,213.0,124.0,Comedy|Drama|Romance,0
 Oye Lucky! Lucky Oye!,2008,7.7,15014.0,125.0,Comedy|Crime|Drama,0
 P Se PM Tak,2015,3.9,67.0,123.0,Comedy|Drama,0
@@ -1249,7 +1249,7 @@ Paltan (film),2018,5.2,729.0,150.0,Action|Drama|History,0
 Panchlait,2017,8.0,45.0,130.0,Drama,0
 Pankh,2010,3.9,113.0,98.0,Drama,0
 Paranthe Wali Gali,2014,5.1,83.0,101.0,Drama|Romance,0
-Parasite,2019,8.5,,130.0,Drama|Thriller,1
+Parasite,2019,8.5,1213.5,130.0,Drama|Thriller,1
 Parched,2015,7.6,4287.0,116.0,Drama,0
 Parineeta (2005 film),2005,7.2,8447.0,130.0,Drama|Musical|Romance,0
 Parmanu: The Story of Pokhran,2018,7.7,18292.0,129.0,Action|Drama|History,0
@@ -1257,7 +1257,7 @@ Partner (2007 film),2007,5.7,10305.0,155.0,Comedy|Drama|Romance,0
 Parwana (2003 film),2003,2.1,244.0,112.0,Action|Drama|Romance,0
 Pataakha,2018,7.2,2931.0,134.0,Action|Comedy|Drama,0
 Patel Ki Punjabi Shaadi,2017,3.9,276.0,120.0,Comedy,0
-Paths of Glory,1957,8.4,,130.0,Drama|War,1
+Paths of Glory,1957,8.4,1213.5,130.0,Drama|War,1
 Pati Patni Aur Woh (2019 film),2019,5.7,6100.0,126.0,Comedy|Romance,0
 Patiala House (film),2011,5.6,8301.0,140.0,Drama|Sport,0
 Paying Guests,2009,4.2,471.0,109.0,Comedy|Drama,0
@@ -1297,9 +1297,9 @@ Prassthanam,2019,6.0,272.0,141.0,Action|Drama,0
 Prem Kaa Game,2010,3.5,194.0,130.0,Comedy|Drama,0
 Prem Ratan Dhan Payo,2015,4.6,16087.0,164.0,Action|Drama|Musical,0
 Prince (2010 film),2010,4.2,1753.0,138.0,Action|Sci-Fi|Thriller,0
-Princess Mononoke,1997,8.3,,130.0,Animation|Action|Adventure,1
-Psycho,1960,8.5,,130.0,Horror|Mystery|Thriller,1
-Pulp Fiction,1994,8.9,,130.0,Crime|Drama,1
+Princess Mononoke,1997,8.3,1213.5,130.0,Animation|Action|Adventure,1
+Psycho,1960,8.5,1213.5,130.0,Horror|Mystery|Thriller,1
+Pulp Fiction,1994,8.9,1213.5,130.0,Crime|Drama,1
 Purani Jeans,2014,6.2,683.0,137.0,Drama,0
 Pyaar Diwana Hota Hai,2002,3.9,284.0,148.0,Drama|Romance,0
 Pyaar Impossible!,2010,4.6,2836.0,140.0,Comedy|Romance,0
@@ -1362,14 +1362,14 @@ Rangrezz,2013,5.1,387.0,144.0,Action|Drama,0
 Rann (film),2010,6.9,2200.0,137.0,Drama|Mystery|Thriller,0
 Raqeeb,2007,4.2,263.0,124.0,Crime|Drama|Mystery,0
 Rascals (2011 film),2011,2.9,2377.0,128.0,Action|Comedy|Crime,0
-Rear Window,1954,8.5,,130.0,Mystery|Thriller,1
+Rear Window,1954,8.5,1213.5,130.0,Mystery|Thriller,1
 Rebellious Flower,2016,6.8,230.0,109.0,Biography|Drama,0
 Red Alert: The War Within,2009,6.4,318.0,120.0,Action|Drama|Thriller,0
 Red Swastik,2007,2.9,209.0,131.0,Crime|Drama|Thriller,0
 Red: The Dark Side,2007,3.3,284.0,148.0,Drama|Romance|Thriller,0
 Rehnaa Hai Terre Dil Mein,2001,7.5,6232.0,160.0,Musical|Romance,0
-Requiem for a Dream,2000,8.3,,130.0,Drama,1
-Reservoir Dogs,1992,8.3,,130.0,Crime|Thriller,1
+Requiem for a Dream,2000,8.3,1213.5,130.0,Drama,1
+Reservoir Dogs,1992,8.3,1213.5,130.0,Crime|Thriller,1
 Revati (film),2005,5.2,33.0,145.0,Drama,0
 Revolver Rani,2014,4.6,1483.0,132.0,Action|Comedy|Crime,0
 Ribbon (film),2017,6.9,444.0,106.0,Drama|Family,0
@@ -1444,17 +1444,17 @@ Satta (film),2003,6.9,499.0,153.0,Crime|Drama,0
 Satya 2,2013,5.9,882.0,142.0,Action|Crime|Drama,0
 Satyagraha (film),2013,5.9,4623.0,152.0,Drama,0
 Satyameva Jayate (2018 film),2018,5.6,5446.0,140.0,Action|Thriller,0
-Saving Private Ryan,1998,8.6,,130.0,Drama|War,1
+Saving Private Ryan,1998,8.6,1213.5,130.0,Drama|War,1
 Say Salaam India,2007,6.4,84.0,130.0,Drama|Sport,0
 Scary Movie V,2013,3.5,76000.0,86.0,Comedy|Horror,0
-Schindler's List,1993,9.0,,130.0,Biography|Drama|History,1
-Se7en,1995,8.6,,130.0,Crime|Drama|Mystery,1
+Schindler's List,1993,9.0,1213.5,130.0,Biography|Drama|History,1
+Se7en,1995,8.6,1213.5,130.0,Crime|Drama|Mystery,1
 Second Hand Husband,2015,3.8,141.0,105.0,Comedy,0
 Secret Superstar,2017,7.9,17698.0,150.0,Drama|Music,0
 Section 375,2019,8.4,1841.0,124.0,Crime|Drama,0
 Sehar,2005,7.8,1861.0,125.0,Action|Crime|Drama,0
 Setters (film),2019,5.1,158.0,126.0,Thriller,0
-Seven Samurai,1954,8.6,,130.0,Action|Drama,1
+Seven Samurai,1954,8.6,1213.5,130.0,Action|Drama,1
 Shaadi Ka Laddoo,2004,5.2,90.0,130.0,Comedy,0
 Shaadi Karke Phas Gaya Yaar,2006,4.0,936.0,152.0,Comedy|Drama|Romance,0
 Shaadi Ke Side Effects,2014,5.6,3613.0,145.0,Comedy|Romance,0
@@ -1505,7 +1505,7 @@ Singh Is Kinng,2008,5.7,13333.0,135.0,Action|Comedy|Crime,0
 Singh Saab the Great,2013,5.7,2044.0,134.0,Action|Drama,0
 Singham,2011,6.7,13176.0,143.0,Action|Drama,0
 Singham Returns,2014,5.7,6745.0,142.0,Action|Drama,0
-Singin' in the Rain,1952,8.3,,130.0,Comedy|Musical|Romance,1
+Singin' in the Rain,1952,8.3,1213.5,130.0,Comedy|Musical|Romance,1
 Sirf (film),2008,6.0,88.0,135.0,Drama,0
 Sixteen (2013 Indian film),2013,6.3,1581.0,138.0,Drama|Romance|Thriller,0
 Slender Man,2018,3.2,37000.0,93.0,Horror|Mystery|Thriller,0
@@ -1527,16 +1527,16 @@ Spark (2014 film),2014,5.7,28.0,134.0,Action,0
 Special 26,2013,8.0,46590.0,144.0,Crime|Drama|Thriller,0
 Speed (2007 film),2007,2.9,480.0,102.0,Action|Crime|Thriller,0
 Spice World,1997,3.6,37000.0,93.0,Comedy|Family|Music,0
-Spider-Man: Across the Spider-Verse,2023,8.7,,130.0,Animation|Action|Adventure,1
-Spider-Man: Into the Spider-Verse,2018,8.4,,130.0,Animation|Action|Adventure,1
-Spirited Away,2001,8.6,,130.0,Animation|Adventure|Family,1
+Spider-Man: Across the Spider-Verse,2023,8.7,1213.5,130.0,Animation|Action|Adventure,1
+Spider-Man: Into the Spider-Verse,2018,8.4,1213.5,130.0,Animation|Action|Adventure,1
+Spirited Away,2001,8.6,1213.5,130.0,Animation|Adventure|Family,1
 Spy Kids 4: All the Time in the World,2011,3.5,28000.0,89.0,Action|Adventure|Comedy,0
 Sssshhh...,2003,4.3,293.0,163.0,Horror|Mystery,0
 Ssukh,2005,5.3,53.0,130.0,Comedy|Family|Romance,0
 Stanley Ka Dabba,2011,7.8,5407.0,96.0,Comedy|Drama|Family,0
-Star Wars: Episode IV - A New Hope,1977,8.6,,130.0,Action|Adventure|Fantasy,1
-Star Wars: Episode V - The Empire Strikes Back,1980,8.7,,130.0,Action|Adventure|Fantasy,1
-Star Wars: Episode VI - Return of the Jedi,1983,8.3,,130.0,Action|Adventure|Fantasy,1
+Star Wars: Episode IV - A New Hope,1977,8.6,1213.5,130.0,Action|Adventure|Fantasy,1
+Star Wars: Episode V - The Empire Strikes Back,1980,8.7,1213.5,130.0,Action|Adventure|Fantasy,1
+Star Wars: Episode VI - Return of the Jedi,1983,8.3,1213.5,130.0,Action|Adventure|Fantasy,1
 Station (2014 film),2014,7.5,89.0,103.0,Crime|Drama|Thriller,0
 Staying Alive (2012 film),2012,5.7,26.0,89.0,Drama,0
 Steel,1997,3.0,15000.0,97.0,Action|Adventure|Crime,0
@@ -1556,7 +1556,7 @@ Summer 2007,2008,6.4,224.0,130.0,Crime|Drama|Thriller,0
 Sunday (2008 film),2008,5.3,2349.0,135.0,Action|Comedy|Mystery,0
 Sunglass (film),2013,6.5,24.0,100.0,Comedy|Drama|Thriller,0
 Suno Sasurjee,2004,2.4,133.0,169.0,Action|Comedy|Musical,0
-Sunset Blvd.,1950,8.4,,130.0,Drama|Film-Noir,1
+Sunset Blvd.,1950,8.4,1213.5,130.0,Drama|Film-Noir,1
 Super 30 (film),2019,8.2,13972.0,154.0,Biography|Drama,0
 Super Model (film),2013,1.9,145.0,83.0,Drama|Mystery|Romance,0
 Super Nani,2014,4.7,351.0,133.0,Comedy|Drama|Family,0
@@ -1599,7 +1599,7 @@ Tere Mere Phere,2011,5.4,237.0,120.0,Comedy|Drama|Romance,0
 Tere Naal Love Ho Gaya,2012,5.8,3831.0,130.0,Comedy|Drama|Romance,0
 Tere Naam,2003,7.1,15219.0,132.0,Action|Drama|Romance,0
 Teri Meri Kahaani (film),2012,4.7,3669.0,117.0,Comedy|Drama|Romance,0
-Terminator 2: Judgment Day,1991,8.6,,130.0,Action|Sci-Fi,1
+Terminator 2: Judgment Day,1991,8.6,1213.5,130.0,Action|Sci-Fi,1
 Tevar,2015,4.1,2756.0,157.0,Action|Drama|Romance,0
 Texas Chainsaw Massacre: The Next Generation,1994,3.3,25000.0,87.0,Comedy|Horror|Thriller,0
 Tezz,2012,3.9,2001.0,121.0,Action|Crime|Drama,0
@@ -1611,12 +1611,12 @@ The Adventures of Sharkboy and Lavagirl 3-D,2005,3.7,41000.0,93.0,Action|Adventu
 The Avengers,1998,3.8,45000.0,89.0,Action|Adventure|Sci-Fi,0
 The Blue Umbrella (2005 film),2005,7.6,1663.0,90.0,Comedy|Drama|Family,0
 The Blueberry Hunt,2016,5.7,186.0,110.0,Action|Thriller,0
-The Boat,1981,8.4,,130.0,Drama|War,1
+The Boat,1981,8.4,1213.5,130.0,Drama|War,1
 The Bypass,2003,7.6,810.0,17.0,Crime|Short,0
 The Cost of Deception,2021,1.5,40000.0,130.0,Action|Crime|Drama,0
-The Dark Knight,2008,9.0,,130.0,Action|Crime|Drama,1
-The Dark Knight Rises,2012,8.4,,130.0,Action|Drama,1
-The Departed,1998,8.5,,130.0,Crime|Drama|Thriller,1
+The Dark Knight,2008,9.0,1213.5,130.0,Action|Crime|Drama,1
+The Dark Knight Rises,2012,8.4,1213.5,130.0,Action|Drama,1
+The Departed,1998,8.5,1213.5,130.0,Crime|Drama|Thriller,1
 The Dirty Picture,2011,6.6,8067.0,144.0,Biography|Drama,0
 The Emoji Movie,2017,3.4,69000.0,86.0,Animation|Adventure|Comedy,0
 The Film,2005,6.5,78.0,144.0,Crime|Drama|Mystery,0
@@ -1625,49 +1625,49 @@ The Final Exit,2017,6.2,40.0,119.0,Horror,0
 The Flintstones in Viva Rock Vegas,2000,3.7,25000.0,90.0,Comedy|Family|Romance,0
 The Fog,2005,3.7,39000.0,100.0,Horror|Mystery,0
 The Ghazi Attack,2017,7.6,10332.0,116.0,Action|Thriller|War,0
-The Godfather,1972,9.2,,130.0,Crime|Drama,1
-The Godfather Part II,1974,9.0,,130.0,Crime|Drama,1
-"The Good, the Bad and the Ugly",1966,8.8,,130.0,Adventure|Western,1
-The Great Dictator,1940,8.4,,130.0,Comedy|Drama|War,1
-The Green Mile,1999,8.6,,130.0,Crime|Drama|Fantasy,1
+The Godfather,1972,9.2,1213.5,130.0,Crime|Drama,1
+The Godfather Part II,1974,9.0,1213.5,130.0,Crime|Drama,1
+"The Good, the Bad and the Ugly",1966,8.8,1213.5,130.0,Adventure|Western,1
+The Great Dictator,1940,8.4,1213.5,130.0,Comedy|Drama|War,1
+The Green Mile,1999,8.6,1213.5,130.0,Crime|Drama|Fantasy,1
 The Hero: Love Story of a Spy,2003,5.2,1901.0,160.0,Action|Adventure|Drama,0
 The Hottie & the Nottie,2008,2.0,39000.0,91.0,Comedy|Romance,0
 The Human Centipede III (Final Sequence),2015,2.7,19000.0,102.0,Comedy|Horror,0
 The Hungover Games,2014,3.5,16000.0,85.0,Adventure|Comedy|Fantasy,0
-The Hunt,2012,8.3,,130.0,Drama,1
-The Intouchables,2011,8.5,,130.0,Biography|Comedy|Drama,1
+The Hunt,2012,8.3,1213.5,130.0,Drama,1
+The Intouchables,2011,8.5,1213.5,130.0,Biography|Comedy|Drama,1
 The Japanese Wife,2010,7.6,1949.0,105.0,Drama|Romance,0
 The Journey of Karma,2018,6.3,50.0,98.0,Drama,0
 The Killer (2006 film),2006,4.6,929.0,117.0,Action|Comedy|Crime,0
 The Last Lear,2007,7.0,1000.0,130.0,Drama,0
 The Legend of Bhagat Singh,2002,8.1,13455.0,155.0,Action|Biography|Drama,0
-The Lion King,1994,8.5,,130.0,Animation|Adventure|Drama,1
-The Lives of Others,2006,8.4,,130.0,Drama|Mystery|Thriller,1
-The Lord of the Rings: The Fellowship of the Ring,2001,8.8,,130.0,Action|Adventure|Drama,1
-The Lord of the Rings: The Return of the King,2003,9.0,,130.0,Action|Adventure|Drama,1
-The Lord of the Rings: The Two Towers,2002,8.8,,130.0,Action|Adventure|Drama,1
+The Lion King,1994,8.5,1213.5,130.0,Animation|Adventure|Drama,1
+The Lives of Others,2006,8.4,1213.5,130.0,Drama|Mystery|Thriller,1
+The Lord of the Rings: The Fellowship of the Ring,2001,8.8,1213.5,130.0,Action|Adventure|Drama,1
+The Lord of the Rings: The Return of the King,2003,9.0,1213.5,130.0,Action|Adventure|Drama,1
+The Lord of the Rings: The Two Towers,2002,8.8,1213.5,130.0,Action|Adventure|Drama,1
 The Love Guru,2008,3.8,54000.0,87.0,Comedy|Romance|Sport,0
 The Lunchbox,2013,7.8,43790.0,104.0,Drama|Romance,0
 The Master of Disguise,2002,3.3,27000.0,80.0,Adventure|Comedy|Family,0
-The Matrix,1999,8.7,,130.0,Action|Sci-Fi,1
+The Matrix,1999,8.7,1213.5,130.0,Action|Sci-Fi,1
 The Namesake (film),2006,7.5,18211.0,122.0,Drama,0
 The NeverEnding Story III,1994,3.2,12000.0,95.0,Adventure|Comedy|Family,0
 The Open House,2018,3.3,36000.0,94.0,Horror|Thriller,0
-The Pianist,2002,8.5,,130.0,Biography|Drama|Music,1
+The Pianist,2002,8.5,1213.5,130.0,Biography|Drama|Music,1
 The Pink Mirror,2003,4.4,123.0,40.0,Comedy|Short,0
-The Prestige,2006,8.5,,130.0,Drama|Mystery|Sci-Fi,1
+The Prestige,2006,8.5,1213.5,130.0,Drama|Mystery|Sci-Fi,1
 The Room,2003,3.6,94000.0,99.0,Drama,0
 The Shaukeens,2014,5.0,2632.0,124.0,Comedy,0
-The Shawshank Redemption,1994,9.3,,130.0,Drama,1
-The Shining,1980,8.4,,130.0,Drama|Horror,1
-The Silence of the Lambs,1991,8.6,,130.0,Crime|Drama|Thriller,1
+The Shawshank Redemption,1994,9.3,1213.5,130.0,Drama,1
+The Shining,1980,8.4,1213.5,130.0,Drama|Horror,1
+The Silence of the Lambs,1991,8.6,1213.5,130.0,Crime|Drama|Thriller,1
 The Silent Heroes,2015,6.6,57.0,115.0,Adventure|Drama|Family,0
 The Sky Is Pink,2019,6.6,1659.0,143.0,Drama|Family|Romance,0
 The Starving Games,2013,3.2,22000.0,83.0,Adventure|Comedy|Sci-Fi,0
 The Stoneman Murders,2009,7.4,2197.0,95.0,Crime|Drama|Mystery,0
 The Tashkent Files,2019,8.0,5524.0,134.0,Drama|Mystery|Thriller,0
 The Train (2007 film),2007,4.3,950.0,134.0,Crime|Drama|Thriller,0
-The Usual Suspects,1995,8.5,,130.0,Crime|Drama|Mystery,1
+The Usual Suspects,1995,8.5,1213.5,130.0,Crime|Drama|Mystery,1
 The Wicker Man,2006,3.8,71000.0,102.0,Horror|Mystery|Thriller,0
 The Xposé,2014,3.2,1419.0,113.0,Thriller,0
 The Zoya Factor (film),2019,4.1,683.0,134.0,Comedy|Drama|Romance,0
@@ -1685,8 +1685,8 @@ Tom Dick and Harry (2006 film),2006,3.2,515.0,137.0,Comedy|Romance,0
 Toonpur Ka Super Hero,2010,4.2,628.0,95.0,Action|Adventure|Animation,0
 Total Dhamaal,2019,4.3,4817.0,130.0,Action|Adventure|Comedy,0
 Total Siyapaa,2014,5.0,2726.0,108.0,Comedy|Drama|Romance,0
-Toy Story,1995,8.3,,130.0,Animation|Adventure|Comedy,1
-Toy Story 3,2010,8.3,,130.0,Animation|Adventure|Comedy,1
+Toy Story,1995,8.3,1213.5,130.0,Animation|Adventure|Comedy,1
+Toy Story 3,2010,8.3,1213.5,130.0,Animation|Adventure|Comedy,1
 Traffic (2016 film),2016,6.7,2317.0,104.0,Adventure|Drama|Thriller,0
 Traffic Signal (film),2007,6.5,1356.0,130.0,Drama,0
 Trapped (2016 Hindi film),2016,7.5,8295.0,105.0,Action|Drama|Thriller,0
@@ -1742,7 +1742,7 @@ Vishwaroopam,2013,8.2,38016.0,148.0,Action|Thriller,0
 Vivah,2006,6.6,8290.0,160.0,Drama|Family|Musical,0
 Vodka Diaries,2018,5.6,959.0,120.0,Mystery|Thriller,0
 W (2014 film),2014,6.8,43.0,137.0,Crime|Musical|Thriller,0
-WALL·E,2008,8.4,,130.0,Animation|Adventure|Family,1
+WALL·E,2008,8.4,1213.5,130.0,Animation|Adventure|Family,1
 Waah! Tera Kya Kehna,2002,3.7,203.0,130.0,Comedy,0
 Waarrior Savitri,2016,5.0,270.0,136.0,Action|Thriller,0
 Wafa: A Deadly Love Story,2008,3.9,66.0,120.0,Drama|Mystery|Romance,0
@@ -1766,11 +1766,11 @@ Welcome to Sajjanpur,2008,6.9,2895.0,133.0,Comedy|Drama,0
 Well Done Abba,2009,7.3,1602.0,144.0,Comedy,0
 What the Fish,2013,5.1,151.0,98.0,Adventure|Comedy|Drama,0
 What's Your Raashee?,2009,4.6,2417.0,195.0,Comedy|Drama|Romance,0
-Whiplash,2014,8.5,,130.0,Drama|Music,1
+Whiplash,2014,8.5,1213.5,130.0,Drama|Music,1
 Who's Your Caddy?,2007,2.2,15000.0,93.0,Comedy|Sport,0
 Why Cheat India,2019,6.0,1891.0,121.0,Crime|Drama,0
 Winnie the Pooh: Blood and Honey,2023,2.9,24000.0,84.0,Horror,0
-Witness for the Prosecution,1957,8.4,,130.0,Crime|Drama|Mystery,1
+Witness for the Prosecution,1957,8.4,1213.5,130.0,Crime|Drama|Mystery,1
 Woh Lamhe...,2006,6.6,1115.0,156.0,Biography|Drama|Romance,0
 Woodstock Villa,2008,3.4,370.0,130.0,Drama|Mystery|Thriller,0
 Xcuse Me,2003,5.7,682.0,152.0,Comedy,0
@@ -1800,7 +1800,7 @@ Yeh Saali Aashiqui,2019,7.9,3200.0,137.0,Thriller,0
 Yeh Teraa Ghar Yeh Meraa Ghar,2001,5.7,704.0,175.0,Comedy|Drama,0
 Yeh Zindagi Ka Safar,2001,3.0,133.0,146.0,Drama,0
 Youngistaan,2014,5.1,1742.0,133.0,Drama,0
-Your Name.,2016,8.4,,130.0,Animation|Drama|Fantasy,1
+Your Name.,2016,8.4,1213.5,130.0,Animation|Drama|Fantasy,1
 Yun Hota Toh Kya Hota,2006,6.7,584.0,115.0,Drama,0
 Yuva,2004,7.4,8045.0,161.0,Action|Drama|Thriller,0
 Yuvvraaj,2008,4.1,3707.0,151.0,Comedy|Drama|Romance,0

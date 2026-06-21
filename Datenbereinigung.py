@@ -125,8 +125,13 @@ def merge_and_save(df_basis, df_top, df_flop, output_file="movies_merged.csv"):
     median_duration = df_all["duration_min"].median()
     df_all["duration_min"] = df_all["duration_min"].fillna(median_duration)
 
+    # Fehlende Bewertungen ersetzen
+    df_all["vote_count"] = df_all["vote_count"].fillna(df_all["vote_count"].median())
+
     # Fehlende Ratings oder Jahreszahlen entfernen
     df_all = df_all.dropna(subset=["release_year", "imdb_rating"])
+
+    print(df_all.isnull().sum())
 
     # Als CSV speichern
     df_all.to_csv(output_file, index=False, encoding="utf-8")
