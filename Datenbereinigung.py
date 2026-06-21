@@ -11,7 +11,8 @@ def load_and_prepare_datasets(basis_path, top_path, flop_path):
     df_top = pd.read_csv(top_path)
     df_flop = pd.read_csv(flop_path)
 
-# Hilfsfunktion, um das erste Genre zu extrahieren
+
+    # Hilfsfunktion, um das erste Genre zu extrahieren
     def get_first_genre(genre):
         if pd.isna(genre):
             return np.nan
