@@ -54,6 +54,7 @@ print(df['is_top_100'].value_counts(normalize=True) * 100)
 genres = (df["genre"].str.split("|").explode())
 print('Class Imbalance, genre')
 print(genres.value_counts())
+print(genres.value_counts(normalize=True) * 100)
 
 
 # Verteilung der IMDb-Bewertungen
@@ -78,7 +79,7 @@ corr = df[["imdb_rating", "vote_count", "release_year", "duration_min", "is_top_
 print('Korrelation: ', corr)
 
 plt.figure(figsize=(8, 6))
-sns.heatmap(corr, annot=True, cmap='coolwarm', vmin=-1, vmax=1)
+sns.heatmap(corr, annot=True, cmap='coolwarm', vmin=-1, vmax=1, fmt='.2f')
 plt.title('Korrelationsmatrix')
 plt.show()
 
