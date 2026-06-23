@@ -160,7 +160,7 @@ print("RMSE:", np.sqrt(mean_squared_error(y_test_reg, pred_rf)))
 print("R²:", r2_score(y_test_reg, pred_rf))
 
 
-
+'''
 # CLUSTERING
 print("CLUSTERING")
 
@@ -193,7 +193,7 @@ plt.figure(figsize=(8, 6))
 sns.scatterplot(data=df, x="imdb_rating", y="vote_count", hue="cluster", palette="Set2")
 plt.title("K-Means Cluster")
 plt.show()
-
+'''
 
 
 # VISUALISIERUNG KLASSIFIKATION
