@@ -191,3 +191,50 @@ plt.xlabel("Tatsächliches IMDb-Rating")
 plt.ylabel("Vorhergesagtes IMDb-Rating")
 plt.title("Vorhersage vs. Realität")
 plt.show()
+
+print("EXTREME TRAIN-TEST SPLITS (Logistische Regression)")
+
+splits_to_test = {
+    "Wenig Training (10% Train / 90% Test)": 0.9,
+    "Viel Training (90% Train / 10% Test)": 0.1
+}
+
+for test_size in splits:
+
+    accuracies = []
+
+    for i in range(10):
+
+        # Train-Test-Split
+        X_train, X_test, y_train, y_test = train_test_split(
+            X,
+            y,
+            test_size=test_size,
+            random_state=i,
+            stratify=y
+        )
+
+        # Normalisierung
+        scaler = StandardScaler()
+
+        X_train = scaler.fit_transform(X_train)
+        X_test = scaler.transform(X_test)
+
+        # Modell
+        model = LogisticRegression(max_iter=1000)
+
+        # Training
+        model.fit(X_train, y_train)
+
+        # Vorhersage
+        y_pred = model.predict(X_test)
+
+        # Accuracy speichern
+        acc = accuracy_score(y_test, y_pred)
+        accuracies.append(acc)
+
+    print(f"Testgröße: {test_size}")
+    print(f"Trainingsgröße: {1-test_size}")
+    print(f"Accuracy: {accuracies}")
+    print(f"Durchschnitt: {np.mean(accuracies):.4f}")
+    print(f"Varianz: {np.var(accuracies):.6f}")
