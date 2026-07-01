@@ -24,14 +24,10 @@ from sklearn.tree import plot_tree
 
 sns.set_theme(style="whitegrid")
 
-
-
 # merged csv laden
 df = pd.read_csv("movies_merged.csv")
 print(df.info())
 print(df.head())
-
-
 
 # FEATURES ERSTELLEN
 df["genre"] = df["genre"].fillna("Unknown")
@@ -41,8 +37,6 @@ X = pd.get_dummies(X, columns=["genre"], drop_first=True)                  # Gen
 # Zielvariablen
 y_top = df["is_top_100"]
 y_rating = df["imdb_rating"]
-
-
 
 # TRAIN-TEST-SPLIT
 # Klassifikation
@@ -59,8 +53,6 @@ X_train_reg, X_test_reg, y_train_reg, y_test_reg = train_test_split(
     y_rating,
     test_size=0.2,
     random_state=42)
-
-
 
 # NORMALISIERUNG
 scaler_clf = StandardScaler()
@@ -80,8 +72,6 @@ X_test_clf[num_cols] = scaler_clf.transform(X_test_clf[num_cols])
 X_train_reg[num_cols] = scaler_reg.fit_transform(X_train_reg[num_cols])
 X_test_reg[num_cols] = scaler_reg.transform(X_test_reg[num_cols])
 
-
-
 # KLASSIFIKATION
 print("KLASSIFIKATION")
 
@@ -94,7 +84,6 @@ print("\nLogistische Regression")
 print("Accuracy:", accuracy_score(y_test_clf, y_pred_log))
 print(classification_report(y_test_clf, y_pred_log))
 
-
 # Random Forest
 rf = RandomForestClassifier(random_state=42)
 rf.fit(X_train_clf, y_train_clf)
@@ -103,8 +92,6 @@ y_pred_rf = rf.predict(X_test_clf)
 print("\nRandom Forest")
 print("Accuracy:", accuracy_score(y_test_clf, y_pred_rf))
 print(classification_report(y_test_clf, y_pred_rf))
-
-
 
 # HYPERPARAMETER-TUNING
 print("\nGridSearch startet...")
@@ -132,8 +119,6 @@ y_pred_best = best_rf.predict(X_test_clf)
 print("\nAccuracy Tuned RF:", accuracy_score(y_test_clf, y_pred_best))
 print(classification_report(y_test_clf, y_pred_best))
 
-
-
 # REGRESSION
 print("REGRESSION")
 
@@ -147,8 +132,6 @@ print("MAE:", mean_absolute_error(y_test_reg, pred_lin))
 print("RMSE:", np.sqrt(mean_squared_error(y_test_reg, pred_lin)))
 print("R²:", r2_score(y_test_reg, pred_lin))
 
-
-
 # Random Forest Regressor
 rf_reg = RandomForestRegressor(random_state=42)
 rf_reg.fit(X_train_reg, y_train_reg)
@@ -158,43 +141,6 @@ print("\nRandom Forest Regressor")
 print("MAE:", mean_absolute_error(y_test_reg, pred_rf))
 print("RMSE:", np.sqrt(mean_squared_error(y_test_reg, pred_rf)))
 print("R²:", r2_score(y_test_reg, pred_rf))
-
-
-'''
-# CLUSTERING
-print("CLUSTERING")
-
-X_cluster = df[["imdb_rating", "vote_count", "duration_min", "release_year"]].copy()
-
-scaler_cluster = StandardScaler()
-X_cluster_scaled = scaler_cluster.fit_transform(X_cluster)
-
-inertia = []
-
-for k in range(1, 11):
-    model = KMeans(n_clusters=k, random_state=42, n_init=10)
-    model.fit(X_cluster_scaled)
-    inertia.append(model.inertia_)
-
-plt.figure(figsize=(8, 6))
-plt.plot(range(1, 11), inertia, marker="o")
-plt.title("Elbow-Methode")
-plt.xlabel("Anzahl Cluster")
-plt.ylabel("Inertia")
-plt.show()
-
-
-# Beispiel: 3 Cluster
-kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
-clusters = kmeans.fit_predict(X_cluster_scaled)
-df["cluster"] = clusters
-
-plt.figure(figsize=(8, 6))
-sns.scatterplot(data=df, x="imdb_rating", y="vote_count", hue="cluster", palette="Set2")
-plt.title("K-Means Cluster")
-plt.show()
-'''
-
 
 # VISUALISIERUNG KLASSIFIKATION
 # Konfusionsmatrix
@@ -207,7 +153,6 @@ plt.title("Konfusionsmatrix")
 plt.xlabel("Vorhersage")
 plt.ylabel("Wahr")
 plt.show()
-
 
 # ROC-Kurve
 y_prob = best_rf.predict_proba(X_test_clf)[:, 1]
@@ -223,8 +168,6 @@ plt.title("ROC-Kurve")
 plt.legend()
 plt.show()
 
-
-
 # FEATURE IMPORTANCE
 importances = best_rf.feature_importances_
 indices = np.argsort(importances)[::-1][:10]
@@ -235,15 +178,11 @@ sns.barplot(x=importances[indices],y=top_features)
 plt.title("Top 10 Feature Importances")
 plt.show()
 
-
-
 # EINEN BAUM VISUALISIEREN
 plt.figure(figsize=(20, 10))
 plot_tree(best_rf.estimators_[0], feature_names=X_train_clf.columns, class_names=["Normal", "Top100"], filled=True, max_depth=3, rounded=True)
 plt.title("Ein Entscheidungsbaum des Random Forest")
 plt.show()
-
-
 
 # REGRESSIONSVORHERSAGE
 plt.figure(figsize=(7, 6))
@@ -252,4 +191,3 @@ plt.xlabel("Tatsächliches IMDb-Rating")
 plt.ylabel("Vorhergesagtes IMDb-Rating")
 plt.title("Vorhersage vs. Realität")
 plt.show()
-

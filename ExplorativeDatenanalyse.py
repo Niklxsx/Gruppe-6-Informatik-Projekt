@@ -5,7 +5,6 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-
 # Laden der bereinigten csv Datei in ein DataFrame
 df = pd.read_csv('movies_merged.csv')  
 
@@ -16,8 +15,6 @@ print('Statistische Zusammenfassung: ', df.describe())
 
 # Fehlende Werte prüfen
 print("Fehlende Werte:", df.isnull().sum())
-
-
 
 #Trainings und Testdaten aufteilen, Zielvariable ist "is_top_100"
 X = df[["release_year", "vote_count", "duration_min"]]
@@ -35,8 +32,6 @@ scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
-
-
 # Verteilung der Zielvariablen
 plt.figure(figsize=(8, 6))
 sns.countplot(x='is_top_100', data=df)        # untersucht Class Imbalance (binäre Variable)
@@ -44,7 +39,6 @@ plt.title('Verteilung der Zielvariablen')
 plt.xlabel('Ist in Top 100')
 plt.ylabel('Anzahl')
 plt.show()
-
 
 # Class Imbalance
 print(df["is_top_100"].value_counts())
@@ -55,7 +49,6 @@ genres = (df["genre"].str.split("|").explode())
 print('Class Imbalance, genre')
 print(genres.value_counts())
 print(genres.value_counts(normalize=True) * 100)
-
 
 # Verteilung der IMDb-Bewertungen
 plt.figure(figsize=(8, 6))
@@ -73,7 +66,6 @@ plt.xlabel("Dauer in Minuten")
 plt.ylabel("Anzahl Filme")
 plt.show()
 
-
 # Korrelation zwischen Attributen
 corr = df[["imdb_rating", "vote_count", "release_year", "duration_min", "is_top_100"]].corr()    # bestimmte Attribute gewählt
 print('Korrelation: ', corr)
@@ -82,8 +74,6 @@ plt.figure(figsize=(8, 6))
 sns.heatmap(corr, annot=True, cmap='coolwarm', vmin=-1, vmax=1, fmt='.2f')
 plt.title('Korrelationsmatrix')
 plt.show()
-
-
 
 # weitere Plots
 

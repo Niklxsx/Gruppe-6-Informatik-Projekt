@@ -3,14 +3,12 @@ import re
 import numpy as np
 import pandas as pd
 
-
 def load_and_prepare_datasets(basis_path, top_path, flop_path):
     """Datensätze laden, Spalten harmonisieren und Targets erstellen."""
 
     df_basis = pd.read_csv(basis_path)
     df_top = pd.read_csv(top_path)
     df_flop = pd.read_csv(flop_path)
-
 
     def clean_genres(genre):
         if pd.isna(genre):
@@ -90,7 +88,6 @@ def load_and_prepare_datasets(basis_path, top_path, flop_path):
 
     return df_basis_prep, df_top_prep, df_flop_prep
 
-
 def merge_and_save(df_basis, df_top, df_flop, output_file="movies_merged.csv"):
     """Führt die drei Datensätze zusammen und speichert sie als CSV."""
 
@@ -140,7 +137,6 @@ def merge_and_save(df_basis, df_top, df_flop, output_file="movies_merged.csv"):
 
     return df_all
 
-
 if __name__ == "__main__":
 
     # Hier die Pfade evtl anpassen
@@ -159,4 +155,3 @@ if __name__ == "__main__":
         # Datenaufbereitung
         df_b, df_t, df_f = load_and_prepare_datasets(PATH_BASIS, PATH_TOP, PATH_FLOP)
         df_merged = merge_and_save(df_b, df_t, df_f, "movies_merged.csv")
-        
