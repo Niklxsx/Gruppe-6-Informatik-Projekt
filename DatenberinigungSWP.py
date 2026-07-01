@@ -262,7 +262,6 @@ def plot_visualizations(model, X_train, X_test, y_test, y_pred):
 if __name__ == "__main__":
 
     # Hier die Pfade anpassen
-    # Hier die Pfade anpassen
     PATH_BASIS = "/Users/Lian/Documents/Movies_dataset.csv"
     PATH_TOP = "/Users/Lian/Documents/imdb_top_movies.csv"
     PATH_FLOP = "/Users/Lian/Documents/lowest_ranked_movies_data.csv"
